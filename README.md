@@ -9,9 +9,11 @@ The program requires the user to input the directory of the .txt file to read an
 The program can be runned by compiling and executing the ConnectDatabase.java class:
 
 >javac ConnectDatabase.java
+
 >java ConnectDatabase
 
 The test can be runned by compiling and executing the ParserTest.java class:
 
 >javac ParserTest.java
+
 >java ParserTest
