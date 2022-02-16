@@ -32,11 +32,6 @@ public class Log {
         return id;
     }
 
-    public enum State{
-        STARTED,
-        FINISHED
-    }
-
     private String id;
     private State state;
     private long timestamp;
