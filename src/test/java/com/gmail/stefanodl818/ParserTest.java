@@ -53,8 +53,8 @@ public class ParserTest {
 
     @Test
     public void timeDifferenceOfLogsWithSameIdAndStatusIs0(){
-        Log log1 = new Log("scrambe1", Log.State.STARTED, 1245678954);
-        Log log2 = new Log("scrambe1", Log.State.STARTED, 1245678959);
+        Log log1 = new Log("scrambe1", State.STARTED, 1245678954);
+        Log log2 = new Log("scrambe1", State.STARTED, 1245678959);
 
         long expected = 0;
         long actual = Parser.calculateTimeExecution(log1, log2);
