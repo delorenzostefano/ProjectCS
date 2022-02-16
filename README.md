@@ -32,4 +32,6 @@ The program should:
 ∙ Alert (true if the event took longer than 4ms, otherwise false) 
 
 
-The program requires the user to input the directory of the .txt file to read and then will produce the result.
+<Mark> The program requires the user to input the directory of the .txt file to read and then will produce the result.
+
+The program can be runned by executing the ConnectDatabase.java class.</Mark>
