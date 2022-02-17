@@ -23,7 +23,7 @@ public class Parser {
             Map<String, ApplicationServerLog> applicationServerLogMap = new HashMap<>();
             Map<String, Event> eventMap = new HashMap<>();
 
-            logger.info("Starting reading the file and populating the alert map...");
+            logger.info("Starting reading the file and populating the event map...");
             while (scanner.hasNext()) {
                 String line = scanner.nextLine();
 

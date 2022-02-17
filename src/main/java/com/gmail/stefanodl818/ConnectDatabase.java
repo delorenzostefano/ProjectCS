@@ -18,7 +18,6 @@ public class ConnectDatabase {
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the directory of the file to read: ");
         String str= sc.nextLine();
-
         Map<String, Event> eventMap = Parser.parseFile(str);
 
         try {

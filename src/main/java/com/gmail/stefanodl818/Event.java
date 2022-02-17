@@ -1,6 +1,5 @@
 package com.gmail.stefanodl818;
 
-
 public class Event {
 
     public Event(String id, int duration, String host, String type, Boolean alert){
